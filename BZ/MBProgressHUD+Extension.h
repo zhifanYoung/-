@@ -11,6 +11,7 @@
 @interface MBProgressHUD (Extension)
 + (MBProgressHUD *)hudWithText:(NSString *)lableText withView:(UIView *)parentView isGraceTime:(BOOL)isGraceTime;
 
+
 + (MBProgressHUD *)hudWithText:(NSString *)lableText withView:(UIView *)parentView;
 
 + (void)showHudWithText:(NSString *)labelText View:(UIView *)parentView;
