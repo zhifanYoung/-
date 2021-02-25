@@ -110,7 +110,6 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 
-    
     return self.urlM.count;
 }
 
@@ -134,6 +133,7 @@
     browser.photos = photos;
     browser.delegate = self;
     [browser show];
+    
 }
 
 - (void)photoBrowserHide:(NSUInteger)index {
