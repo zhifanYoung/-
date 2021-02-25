@@ -134,6 +134,7 @@
     browser.photos = photos;
     browser.delegate = self;
     [browser show];
+    
 }
 
 - (void)photoBrowserHide:(NSUInteger)index {
