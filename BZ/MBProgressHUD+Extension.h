@@ -16,6 +16,7 @@
 
 + (void)showHudWithText:(NSString *)labelText View:(UIView *)parentView;
 
+
 + (void)showHudWithOutAcitity:(NSString *)labelText View:(UIView *)parentView;
 
 + (void)showHud:(NSString *)text icon:(NSString *)icon view:(UIView *)view;
