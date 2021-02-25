@@ -105,6 +105,7 @@
     NSURL *url = [NSURL URLWithString:urlStr];
     [cell.iconView sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"placeholder"]];
     return cell;
+    
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
