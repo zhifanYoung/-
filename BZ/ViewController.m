@@ -144,6 +144,7 @@
         
         [self.cView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:index inSection:0] atScrollPosition: UICollectionViewScrollPositionCenteredVertically animated:YES];
     }
+    
 }
 
 - (NSMutableArray *)modelM {
