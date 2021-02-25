@@ -110,7 +110,6 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 
-    
     return self.urlM.count;
 }
 
